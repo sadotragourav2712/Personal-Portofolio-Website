@@ -13,10 +13,32 @@ body{
     color:#fff;
 
 }
-#header{
+ #header video{
+    /* position: fixed; */
+    /* right: 0; */
+    /* bottom: 0; */
+    /* align-items: center;
+    float :right;
+    margin:0;
+    width: 80%;
+    height: 70%; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+#header {
     width:100%;
     height:100%;
-    background-image:url("background.png");
+    /* position:realtive; */
+    /* background-image:url("background.png"); */
+    /* background-clip: ; */
+    /* video src="walking on the moon.mp4" muted autoplay loop>< */
     background-position:center;
     background-repeat: no-repeat;
 }
