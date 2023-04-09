@@ -185,6 +185,13 @@ margin-left: 5%;
 .tab-contents.active-tab{
 display: block;
 }
+marquee
+{
+    background-color: #252626;
+    color:red;
+    font-size:medium
+
+}
 /* ------------services------------ */
 #services{
     padding:30px 0;
