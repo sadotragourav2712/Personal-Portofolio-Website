@@ -107,16 +107,17 @@ margin-left: 5%;
     color:#ababab;
 }
 .about_me_Section{
-    background-color: rgb(32, 39, 41);
+/*     background-color: rgb(32, 39, 41); */
     color:white;
 }.about_me_Section span{
     color:blue
 }
 .about_me_Section:hover{
     /* /* transform: background 0.5s,transform 0.5s ; */
-/*     background-color: red; */
+    background-color: rgb(32, 39, 41);
+    
     border-radius:10px;
-    transform:translateY(10px);
+/*     transform:translateY(10px); */
     /* color:blue  */
 }
 .row{
